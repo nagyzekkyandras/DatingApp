@@ -2,7 +2,7 @@
 
 Udemy course: https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/
 
-### commands
+### dotnet related commands
 ```sh
 dotnet --info
 
@@ -60,4 +60,26 @@ dotnet ef database update
 
 # new template gitignore
 dontnet new gitignore
+```
+
+### angular related commands
+```sh
+# check versions
+node --version
+npm --version
+ng version
+
+# install and use specific versions
+nvm install 16.10.0
+nvm use 16.10.0
+nvm alias default 16.10.0
+npm install -g @angular/cli@14
+
+# run the angular app
+ng serve
+
+# install bootstrap
+ng add ngx-bootstrap
+# or
+npm install ngx-bootstrap --save
 ```
