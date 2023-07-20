@@ -60,6 +60,11 @@ dotnet ef database update
 
 # new template gitignore
 dontnet new gitignore
+
+# new migration run
+dotnet ef migrations add UserPasswordAdded
+# commit the changes
+dotnet ef database update
 ```
 
 ### angular related commands
@@ -83,3 +88,7 @@ ng add ngx-bootstrap
 # or
 npm install ngx-bootstrap --save
 ```
+
+### Useful pages
+- https://jwt.ms/
+- https://jwt.io/
