@@ -80,6 +80,9 @@ nvm use 16.10.0
 nvm alias default 16.10.0
 npm install -g @angular/cli@14
 
+# create project
+ng new client
+
 # run the angular app
 ng serve
 
@@ -87,6 +90,15 @@ ng serve
 ng add ngx-bootstrap
 # or
 npm install ngx-bootstrap --save
+
+# create new componenet navigation
+ng g c nav
+
+# without tests
+ng g c nav --skip-tests 
+
+# create a new service with specified folder
+ng g s _services/account --skip-tests 
 ```
 
 ### Useful pages
