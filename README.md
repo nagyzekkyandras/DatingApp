@@ -104,3 +104,5 @@ ng g s _services/account --skip-tests
 ### Useful pages
 - https://jwt.ms/
 - https://jwt.io/
+- https://github.com/scttcper/ngx-toastr
+- https://bootswatch.com/
